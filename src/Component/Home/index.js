@@ -15,7 +15,7 @@ function Body({filter})
                     {filter.map((item)=>{
                         return(
                             <div key={item.id} className={clsx('col l-2-4',styles.item)}>
-                                <Link to={`/store/films/${item.id}`}>
+                                <Link to={`Film-Search/store/films/${item.id}`}>
                                     <span className={clsx(styles.play)}>
                                         <Play/>
                                     </span>

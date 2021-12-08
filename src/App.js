@@ -49,8 +49,8 @@ function App() {
       <Navbar search={search} setSearch={setSearch}/>
       <div className='body'>
         <Routes>
-          <Route path='/store/films/:slug' element={<Watch films={films} />}></Route>
-          <Route path='/' element={<Home filter={filter}/>}></Route>
+          <Route path='Film-Search/store/films/:slug' element={<Watch films={films} />}></Route>
+          <Route path='Film-Search/' element={<Home filter={filter}/>}></Route>
         </Routes>
       </div>
     </div>
