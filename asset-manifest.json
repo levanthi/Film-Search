@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Film-Search/static/css/main.3d14c39f.chunk.css",
+    "main.js": "/Film-Search/static/js/main.a0d22b0f.chunk.js",
+    "main.js.map": "/Film-Search/static/js/main.a0d22b0f.chunk.js.map",
+    "runtime-main.js": "/Film-Search/static/js/runtime-main.0d15ad5f.js",
+    "runtime-main.js.map": "/Film-Search/static/js/runtime-main.0d15ad5f.js.map",
+    "static/js/2.11812de4.chunk.js": "/Film-Search/static/js/2.11812de4.chunk.js",
+    "static/js/2.11812de4.chunk.js.map": "/Film-Search/static/js/2.11812de4.chunk.js.map",
+    "static/js/3.86844eb3.chunk.js": "/Film-Search/static/js/3.86844eb3.chunk.js",
+    "static/js/3.86844eb3.chunk.js.map": "/Film-Search/static/js/3.86844eb3.chunk.js.map",
+    "index.html": "/Film-Search/index.html",
+    "static/css/main.3d14c39f.chunk.css.map": "/Film-Search/static/css/main.3d14c39f.chunk.css.map",
+    "static/js/2.11812de4.chunk.js.LICENSE.txt": "/Film-Search/static/js/2.11812de4.chunk.js.LICENSE.txt",
+    "static/media/Logo.cc4e9e8a.svg": "/Film-Search/static/media/Logo.cc4e9e8a.svg",
+    "static/media/play-solid.3c7578b0.svg": "/Film-Search/static/media/play-solid.3c7578b0.svg",
+    "static/media/star-solid.3f5eb997.svg": "/Film-Search/static/media/star-solid.3f5eb997.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d15ad5f.js",
+    "static/js/2.11812de4.chunk.js",
+    "static/css/main.3d14c39f.chunk.css",
+    "static/js/main.a0d22b0f.chunk.js"
+  ]
+}
