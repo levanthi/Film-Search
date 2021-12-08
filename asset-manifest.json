@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Film-Search/static/css/main.3d14c39f.chunk.css",
+    "main.css": "/Film-Search/static/css/main.2d2ea42b.chunk.css",
     "main.js": "/Film-Search/static/js/main.b7b65204.chunk.js",
     "main.js.map": "/Film-Search/static/js/main.b7b65204.chunk.js.map",
     "runtime-main.js": "/Film-Search/static/js/runtime-main.0d15ad5f.js",
@@ -10,7 +10,7 @@
     "static/js/3.86844eb3.chunk.js": "/Film-Search/static/js/3.86844eb3.chunk.js",
     "static/js/3.86844eb3.chunk.js.map": "/Film-Search/static/js/3.86844eb3.chunk.js.map",
     "index.html": "/Film-Search/index.html",
-    "static/css/main.3d14c39f.chunk.css.map": "/Film-Search/static/css/main.3d14c39f.chunk.css.map",
+    "static/css/main.2d2ea42b.chunk.css.map": "/Film-Search/static/css/main.2d2ea42b.chunk.css.map",
     "static/js/2.11812de4.chunk.js.LICENSE.txt": "/Film-Search/static/js/2.11812de4.chunk.js.LICENSE.txt",
     "static/media/Logo.cc4e9e8a.svg": "/Film-Search/static/media/Logo.cc4e9e8a.svg",
     "static/media/play-solid.3c7578b0.svg": "/Film-Search/static/media/play-solid.3c7578b0.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.0d15ad5f.js",
     "static/js/2.11812de4.chunk.js",
-    "static/css/main.3d14c39f.chunk.css",
+    "static/css/main.2d2ea42b.chunk.css",
     "static/js/main.b7b65204.chunk.js"
   ]
 }
