@@ -37,3 +37,20 @@ body{
     opacity:1;
   }
 }
+@media (min-width:740px) and (max-width:1023px)
+{
+  .bodyContainer
+  {
+    max-width: 670px;
+  }
+}
+@media (max-width:740px) {
+  .bodyContainer
+  {
+    box-sizing: border-box;
+  }
+  .body{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}

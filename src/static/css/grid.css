@@ -190,6 +190,7 @@
     .col {
         padding-left: 4px;
         padding-right: 4px;
+        /* box-sizing: border-box; */
     }
     .m-0 {
         display: none;

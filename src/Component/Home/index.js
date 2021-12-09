@@ -16,8 +16,8 @@ function Body({filter})
         <div className={clsx(styles.body)}>
             {console.log('Home-render')}
             {trailer?<Trailer item={trailer} />:""}
-            <h2>Danh Sách Phim</h2>
-            <div className='grid'>
+            <div className={clsx('grid','bodyContainer')}>
+                <h2>Danh Sách Phim</h2>
                 <div className={clsx('row',styles.row1)}>
                     <div 
                         ref={overlayRef} 
@@ -29,7 +29,7 @@ function Body({filter})
                     }></div>
                     {filter.map((item)=>{
                         return(
-                            <div key={item.id} className={clsx('col l-2-4',styles.item)}>
+                            <div key={item.id} className={clsx('col l-2-4 m-3 c-6',styles.item)}>
                                 <Link to={`store/films/${item.id}`}>
                                     <span className={clsx(styles.play)}>
                                         <Play/>

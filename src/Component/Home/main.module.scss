@@ -84,6 +84,7 @@ h2{
     .content
     {
         overflow: hidden;
+        position:relative;
     }
     .sub
     {
@@ -102,9 +103,8 @@ h2{
         position:absolute;
         bottom:0;
         right:0;
-        left:6px;
+        left:0px;
         height:auto;
-        margin-right: 6px;
         padding:6px;
         background-image: linear-gradient(rgba(0, 0, 0, 0.0001),rgba(0,0,0,.9));
         padding-top:40px;
