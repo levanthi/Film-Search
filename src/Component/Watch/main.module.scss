@@ -5,10 +5,22 @@
     max-width: 1000px;
     margin: auto;
     margin-top: 65px;
+    color:white;
     h5{
         color:white;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         letter-spacing: .1rem;
+        padding:18px 0;
+        margin: 0;
+        font-weight: 500;
+        border-bottom: solid 1px rgb(94, 94, 94);
+    }
+    h4{
+        color:rgb(0, 195, 255);
+    }
+    h6{
+        color:rgb(255, 137, 2);
+        font-size: .95rem;
         margin:15px 0;
     }
 }

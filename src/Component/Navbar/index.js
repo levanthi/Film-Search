@@ -6,6 +6,7 @@ function Navbar({search,setSearch})
 {
     return (
         <div className={clsx(styles.navbar)}>
+            {console.log('navbar-render')}
             <Link to='Film-Search/'>
                 <img src={Logo} className={clsx(styles.logo)} alt='logo'/>
             </Link>

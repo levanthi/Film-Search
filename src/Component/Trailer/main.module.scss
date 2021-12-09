@@ -1,0 +1,35 @@
+
+
+.trailer
+{
+    width:1000px;
+    height:360px;
+    background-color: black;
+    position:fixed;
+    margin-left:50%;
+    transform: translateX(-50%);
+    top:100px;
+    z-index:10;
+    display: flex;
+    animation:fadeIn .3s linear;
+    iframe{
+        width: 640px;
+        height:360px;
+        border: unset;
+    }
+    .infoWrap
+    {
+        flex:1;
+        box-sizing: border;
+        padding:20px;
+        :first-child{
+            font-size: 1.4rem;
+            margin-bottom: 10px;
+        }
+        >*:not(:first-child)
+        {
+            color:#ff5600;
+            padding:6px 0;
+        }
+    }
+}

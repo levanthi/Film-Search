@@ -24,10 +24,16 @@ function Watch({films})
     
     return(
         <div className={clsx(styles.watch)}>
+            {console.log('watch-render')}
             {film?
                 <div className={clsx(styles.videoWrap)}>
                     <video autoPlay={true} controls src={film.video}></video>
                     <h5>{film.name}</h5>
+                    <h4>Thông tin chi tiết</h4>
+                    <h6>Đánh giá: {film.star}</h6>
+                    <h6>Lượt xem: {film.view}</h6>
+                    <h6>Thời lượng: {film.time}</h6>
+                    <h6>Loại: {film.type}</h6>
                 </div>
                 :''
             }
