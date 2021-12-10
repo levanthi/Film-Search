@@ -1,4 +1,5 @@
 import clsx from 'clsx'
+import {useRef} from 'react'
 import { useLocation } from 'react-router'
 import styles from './main.module.scss'
 
@@ -21,13 +22,12 @@ function Watch({films})
             return false
         })
     })()
-    
     return(
         <div className={clsx(styles.watch)}>
             {console.log('watch-render')}
             {film?
                 <div className={clsx(styles.videoWrap)}>
-                    <video muted autoPlay controls >
+                    <video width="320px" height="180px" muted autoPlay controls >
                         <source src={film.video} type="video/mp4"/>
                     </video>
                     <h5>{film.name}</h5>
