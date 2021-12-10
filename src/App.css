@@ -29,6 +29,9 @@ body{
   display:none;
   animation:.3s fadeIn linear;
 }
+button,a{
+  -webkit-tap-highlight-color: transparent;
+}
 @keyframes fadeIn{
   from{
     opacity:0;

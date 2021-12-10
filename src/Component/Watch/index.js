@@ -27,7 +27,9 @@ function Watch({films})
             {console.log('watch-render')}
             {film?
                 <div className={clsx(styles.videoWrap)}>
-                    <video autoPlay={true} controls src={film.video}></video>
+                    <video muted autoPlay controls >
+                        <source src={film.video} type="video/mp4"/>
+                    </video>
                     <h5>{film.name}</h5>
                     <h4>Thông tin chi tiết</h4>
                     <h6>Đánh giá: {film.star}</h6>

@@ -155,3 +155,10 @@ h2{
         color:rgb(0, 128, 202);
     }
 }
+@media (max-width:739px)
+{
+    .youtube
+    {
+        display:none !important;
+    }
+}
